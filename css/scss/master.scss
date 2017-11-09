@@ -1,11 +1,16 @@
-$MidnightBlue:#2c3e50;
-$Clouds:#ecf0f1;
+$midnightBlue:#2c3e50;
+$clouds:#ecf0f1;
 
 header{
-  background-color: $MidnightBlue;
+  height: 15%;
+  background-color: $midnightBlue;
 }
 
 h1{
-  font-family: Arial;
-  color: $Clouds;
+  margin: 0;
+  padding: 20px 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 250%;
+  color: $clouds;
 }

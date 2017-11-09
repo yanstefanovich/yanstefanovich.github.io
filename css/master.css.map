@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAGA,MAAM;EACJ,gBAAgB,EAJJ,OAAO;;AAOrB,EAAE;EACA,WAAW,EAAE,KAAK;EAClB,KAAK,EARC,OAAO",
+"mappings": "AAGA,MAAM;EACJ,gBAAgB,EAJJ,OAAO;;AAOrB,EAAE;EACA,WAAW,EAAE,oBAAoB;EACjC,WAAW,EAAE,GAAG;EAChB,KAAK,EATC,OAAO",
 "sources": ["scss/master.scss"],
 "names": [],
 "file": "master.css"
