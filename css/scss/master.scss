@@ -1,4 +1,11 @@
+$MidnightBlue:#2c3e50;
+$Clouds:#ecf0f1;
+
+header{
+  background-color: $MidnightBlue;
+}
+
 h1{
   font-family: Arial;
-  color: DarkGrey;
+  color: $Clouds;
 }
