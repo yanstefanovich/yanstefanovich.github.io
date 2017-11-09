@@ -1,0 +1,78 @@
+.location-section{
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 5%;
+
+    .city-div{
+      margin-top: 3.5%;
+
+        figure{
+          margin: 0;
+          margin-bottom: 7%;
+          padding: 0;
+          border: 1.5px solid #d2d2d2;
+          line-height: 0;
+            img{
+              width: 100%;
+            }
+        }
+
+        figcaption{
+          font-size: 135%;
+          margin: 0;
+          margin-bottom: 2%;
+          padding:0;
+          text-transform: uppercase;
+        }
+
+        ul{
+          list-style: none;
+
+            li{
+              padding: 1% 1%;
+
+                a:link,
+                a:visited{
+                  text-decoration: none;
+                  color: $buttonColor;
+
+                    span{
+                      margin-right: 2.5%;
+                      color: $buttonColor;
+                    }
+
+                    p{
+                      display: inline-block;
+                      padding-bottom: 1%;
+                      border-bottom: 1px solid $buttonColor;
+                    }
+                }
+
+                a:hover,
+                a:active{
+                  color: #00aced;
+
+                    span { color: #00aced; }
+                    p { border-bottom: 1px dashed #00aced; }
+                }
+
+                p { font-size: 115%;
+
+                    span{
+                      display: inline-block;
+                      margin-right: 2.5%;
+                      color: $buttonColor;
+                      border-bottom: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.jsLocationWP{
+  opacity: 0;
+}
+
+.jsLocationWP.animated{
+  opacity: 1;
+}

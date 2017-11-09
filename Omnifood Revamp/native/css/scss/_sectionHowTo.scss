@@ -1,0 +1,104 @@
+.how-section{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #f7f3ed;
+
+    .screen-split{
+      padding-bottom: 5%;
+
+        .left-split{
+          width: 55%;
+          margin: 0;
+          margin-top: 6%;
+          margin-left: 12.5%;
+          float: left;
+
+            .app-container{
+              text-align: center;
+              margin-top: 5%;
+                a{
+                  display: inline-block;
+                    img{
+                      height: 50px;
+                      width: auto;
+                    }
+                }
+            }
+
+            ul{
+              margin: 0;
+              list-style: none;
+
+                li{
+                  display: block;
+                  padding: 2% 0;
+
+                    span{
+                      margin-right: 5%;
+                      display: inline-block;
+                      width: 75px;
+                      height: 75px;
+                      text-align: center;
+                      font-size: 225%;
+                      font-weight: 100;
+                      color: $buttonColor;
+                      border: 2px solid $buttonColor;
+                      float: left;
+                      font-family: 'Open Sans', sans-serif;
+                      line-height: 185%;
+                      border-radius: 50%;
+                    }
+
+                    p{
+                      width: 80%;
+                      display: block;
+                      float: left;
+                      font-size: 150%;
+                      padding: 1.5% 0;
+                    }
+
+                    @media only screen and (max-width: 767px){
+                      span{
+                        width: 50px;
+                        height: 50px;
+                        line-height: 150%;
+                        clear: both;
+                        margin-right: 2.5%;
+                      }
+                    }
+                }
+            }
+        }
+
+        @media only screen and (max-width: 767px){
+          .left-split{
+            width: 100%;
+            margin-left: 0;
+          }
+        }
+
+        .right-split{
+          margin-top: 2%;
+          width: 20%;
+          float: left;
+            img{
+              width: 100%;
+            }
+        }
+
+        @media only screen and (max-width: 767px){
+          .right-split{ display: none; }
+        }
+    }
+}
+
+.jsHowToLeft,
+.jsHowToRight{
+  opacity: 0;
+}
+
+.jsHowToLeft.animated,
+.jsHowToRight.animated{
+  opacity: 1;
+}

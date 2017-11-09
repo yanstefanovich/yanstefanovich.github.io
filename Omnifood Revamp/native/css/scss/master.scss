@@ -1,0 +1,40 @@
+$textColor:#ecf0f1;
+$buttonColor:#27ae60;
+$buttonHover:#16a085;
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+@import "mixins";
+@import "grid";
+@import "header";
+@import "sectionFeatures";
+@import "sectionGallery";
+@import "sectionHowTo";
+@import "sectionLocations";
+@import "sectionReviews";
+@import "titleHeaddings";
+@import "sectionPlans";
+@import "sectionForm";
+@import "footer";
+
+@media only screen and (max-width: 1024px){
+  body { font-size: 15px; }
+}
+
+@media only screen and (max-width: 1023px){
+  body { font-size: 14px; }
+}
+
+@media only screen and (max-width: 767px) {
+  body { font-size: 13px; }
+}
+
+@media only screen and (max-width: 480px){
+  body { font-size: 12px; }
+  .contact-section form .label-container { text-align: left; }
+}
