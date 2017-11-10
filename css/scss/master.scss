@@ -6,19 +6,50 @@ $clouds:#ecf0f1;
   padding: 0;
 }
 
+@import "grid";
+
 body{
   font-size: 20px;
+  background-color: $clouds;
 }
 
 header{
   background-color: $midnightBlue;
+  color: $clouds;
+
+    h1{
+      display: inline-block;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 100;
+      font-size: 250%;
+      padding: 3.5% 0 3.5% 1%;
+    }
 }
 
-h1{
-  display: inline-block;
+.sticky-nav{
+  background-color: $midnightBlue;
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 250%;
+  font-weight: 300;
+
+    ul{
+
+        li{
+          float: left;
+          list-style: none;
+        }
+    }
+}
+
+.nav-link:link,
+.nav-link:visited{
   color: $clouds;
-  padding: 3.5% 0 3.5% 1%;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+.nav-link:hover,
+.nav-link:active{
+  color: $midnightBlue;
+  background-color: $clouds;
 }
