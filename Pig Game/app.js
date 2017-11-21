@@ -99,47 +99,52 @@ reset();
 
 //Game initiation function
 function reset(){
-  //reset all the score values to zero
-  scores = [0,0];
-  roundScore = 0;
-  //reset the game state to active
-  gameActive = true;
   //read the value from the input for score to win
   scoreToWin = document.getElementById('scoreToWin').value;
+  //If score to win is an actual value then reset the game
+  if (scoreToWin && scoreToWin > 0) {
+    //reset all the score values to zero
+    scores = [0,0];
+    roundScore = 0;
+    //reset the game state to active
+    gameActive = true;
 
-  //randomly select the starting player
-  //Player 1 >= 0.5
-  //Player 2 < 0.5
-  if(Math.random() < 0.5){
-    activePlayer = 0;
-  } else {
-    activePlayer = 1;
+    //randomly select the starting player
+    //Player 1 >= 0.5
+    //Player 2 < 0.5
+    if(Math.random() < 0.5){
+      activePlayer = 0;
+    } else {
+      activePlayer = 1;
+    }
+
+    //Notify Players of Winning Condition
+    document.getElementById('notify').textContent = scoreToWin;
+    //Hide dice at the beginning of the game
+    document.querySelector('.dice-1').style.display = 'none';
+    document.querySelector('.dice-2').style.display = 'none';
+
+    //Reset the display for each player's score to zero
+    document.getElementById('score-0').textContent = '0';
+    document.getElementById('score-1').textContent = '0';
+
+    //Reset the display for each player's the round score to zero
+    document.getElementById('current-0').textContent = '0';
+    document.getElementById('current-1').textContent = '0';
+
+    //Reset the css styles on Player 1
+    document.getElementById('name-0').textContent = 'Player 1';
+    document.querySelector('.player-0-panel').classList.remove('winner');
+    document.querySelector('.player-0-panel').classList.remove('active');
+
+    //Reset the css styles on Player 2
+    document.getElementById('name-1').textContent = 'Player 2';
+    document.querySelector('.player-1-panel').classList.remove('winner');
+    document.querySelector('.player-1-panel').classList.remove('active');
+
+    //Apply active style to the randomly selected player (taking first turn)
+    document.querySelector('.player-'+activePlayer+'-panel').classList.add('active');
   }
-
-  //Hide dice at the beginning of the game
-  document.querySelector('.dice-1').style.display = 'none';
-  document.querySelector('.dice-2').style.display = 'none';
-
-  //Reset the display for each player's score to zero
-  document.getElementById('score-0').textContent = '0';
-  document.getElementById('score-1').textContent = '0';
-
-  //Reset the display for each player's the round score to zero
-  document.getElementById('current-0').textContent = '0';
-  document.getElementById('current-1').textContent = '0';
-
-  //Reset the css styles on Player 1
-  document.getElementById('name-0').textContent = 'Player 1';
-  document.querySelector('.player-0-panel').classList.remove('winner');
-  document.querySelector('.player-0-panel').classList.remove('active');
-
-  //Reset the css styles on Player 2
-  document.getElementById('name-1').textContent = 'Player 2';
-  document.querySelector('.player-1-panel').classList.remove('winner');
-  document.querySelector('.player-1-panel').classList.remove('active');
-
-  //Apply active style to the randomly selected player (taking first turn)
-  document.querySelector('.player-'+activePlayer+'-panel').classList.add('active');
 }
 
 //Turn ending function
