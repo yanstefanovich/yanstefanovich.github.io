@@ -70,19 +70,19 @@
 header {
   height: 100vh;
   font-family: 'Raleway', sans-serif;
-  background-image: url(img/hero.jpg);
+  background-image: url(img/hero-min.jpg);
   /*For Browsers with no Support ofr linear-gradient*/
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url(img/hero.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url(img/hero-min.jpg);
   /* Saf4+, Chrome */
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/hero.jpg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/hero-min.jpg);
   /* For Safari 5.1 to 6.0 */
-  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/hero.jpg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/hero-min.jpg);
   /* For Opera 11.1 to 12.0 */
-  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/hero.jpg);
+  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/hero-min.jpg);
   /* For Firefox 3.6 to 15 */
-  background-image: -ms-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/hero.jpg);
+  background-image: -ms-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/hero-min.jpg);
   /*For IE 10>*/
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/hero-min.jpg);
   filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr= 'rgba(0, 0, 0, 0.75)', endColorStr= 'rgba(0, 0, 0, 0.75)', GradientType=0);
   /*For IE 7*/
   -ms-filter: "progid:DXImageTransform.Microsoft.Gradient(startColorStr= 'rgba(0, 0, 0, 0.75)', endColorStr= 'rgba(0, 0, 0, 0.75)', GradientType=0)";
@@ -474,19 +474,19 @@ header nav .main-nav a.dropDownBtn {
   opacity: 1; }
 
 .review-section {
-  background-image: url(img/back-customers.jpg);
+  background-image: url(img/back-customers-min.jpg);
   /*For Browsers with no Support ofr linear-gradient*/
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/back-customers.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/back-customers-min.jpg);
   /* Saf4+, Chrome */
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers-min.jpg);
   /* For Safari 5.1 to 6.0 */
-  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers-min.jpg);
   /* For Opera 11.1 to 12.0 */
-  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
+  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers-min.jpg);
   /* For Firefox 3.6 to 15 */
-  background-image: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
+  background-image: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers-min.jpg);
   /*For IE 10>*/
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers-min.jpg);
   filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr= 'rgba(0, 0, 0, 0.7)', endColorStr= 'rgba(0, 0, 0, 0.7)', GradientType=0);
   /*For IE 7*/
   -ms-filter: "progid:DXImageTransform.Microsoft.Gradient(startColorStr= 'rgba(0, 0, 0, 0.7)', endColorStr= 'rgba(0, 0, 0, 0.7)', GradientType=0)";

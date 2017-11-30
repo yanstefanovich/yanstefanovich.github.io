@@ -1,7 +1,7 @@
 header{
   height: 100vh;
   font-family: 'Raleway', sans-serif;
-  @include backgroundImageTinted(rgba(0,0,0,0.75),url(img/hero.jpg));
+  @include backgroundImageTinted(rgba(0,0,0,0.75),url(img/hero-min.jpg));
   @include backgroundSizeCover();
   background-position: center;
   background-attachment: fixed;

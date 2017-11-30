@@ -1,5 +1,5 @@
 .review-section{
-  @include backgroundImageTinted(rgba(0,0,0,0.7),url(img/back-customers.jpg));
+  @include backgroundImageTinted(rgba(0,0,0,0.7),url(img/back-customers-min.jpg));
   @include backgroundSizeCover();
   background-position: center;
   background-attachment: fixed;
