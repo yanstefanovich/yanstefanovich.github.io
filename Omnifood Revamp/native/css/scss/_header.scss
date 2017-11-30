@@ -82,7 +82,11 @@ header{
   position: relative;
 }
 
-.sm-nav-btn{
+span.sm-nav-btn{
+  margin-top: 2%;
+  padding-bottom: 1.5%;
+  display: inline-block;
+  color: $textColor;
   display: none;
 }
 
@@ -165,19 +169,15 @@ header nav .main-nav a.dropDownBtn{ display: none; }
 }
 
 @media only screen and (max-width: 865px){
-  .sm-nav-btn{
+  span.sm-nav-btn{
     display: block;
-    margin-top: 2%;
-    padding-bottom: 1.5%;
-    display: inline-block;
-    color: $textColor;
   }
 
   .nav-buttons{
     display: none;
     position: absolute;
     right: -10%;;
-    top: 70%;
+    top: 60%;
 
       li{
         background-color: white;
