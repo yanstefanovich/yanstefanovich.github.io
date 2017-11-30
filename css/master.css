@@ -153,4 +153,7 @@ header {
   .intro-section p:last-child {
     margin-top: 12.5%; }
 
+.no-display {
+  display: none; }
+
 /*# sourceMappingURL=master.css.map */
