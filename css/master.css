@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0; }
 
+body {
+  font-size: 20px;
+  background-color: #ecf0f1; }
+
 /*  SECTIONS  */
 .break {
   clear: both;
@@ -65,27 +69,46 @@
   .col-width-half, .col-width-2thirds,
   .col-width-3quarters, .col-width-full {
     width: 100%; } }
-body {
-  font-size: 20px;
-  background-color: #ecf0f1; }
-
-header {
-  background-color: #2c3e50;
-  color: #ecf0f1; }
-  header h1 {
-    display: inline-block;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 250%;
-    padding: 3.5% 0 3.5% 1%; }
-
 .sticky-nav {
-  background-color: #2c3e50;
+  background-image: linear-gradient(to right, #036596, #0d94d8);
   font-family: 'Roboto', sans-serif;
   font-weight: 300; }
   .sticky-nav ul li {
     float: left;
     list-style: none; }
+
+.drop-down-btn {
+  position: relative; }
+
+.drop-down-menu {
+  position: absolute;
+  display: none;
+  z-index: 999; }
+  .drop-down-menu li {
+    display: block;
+    list-style: none;
+    width: 300px;
+    text-align: center; }
+    .drop-down-menu li a:link,
+    .drop-down-menu li a:visited {
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #036596;
+      background-color: #ecf0f1;
+      border-bottom: 0.5px solid #0d94d8;
+      border-right: 0.5px solid #0d94d8;
+      border-left: 0.5px solid #0d94d8; }
+    .drop-down-menu li a:hover,
+    .drop-down-menu li a:active {
+      background-color: #d4d7d8; }
+
+.drop-down-btn:hover .nav-link {
+  color: #036596;
+  background-color: #ecf0f1; }
+
+.drop-down-btn:hover .drop-down-menu {
+  display: block; }
 
 .nav-link:link,
 .nav-link:visited {
@@ -96,7 +119,38 @@ header {
 
 .nav-link:hover,
 .nav-link:active {
-  color: #2c3e50;
+  color: #036596;
   background-color: #ecf0f1; }
+
+header {
+  background-image: linear-gradient(to right, #036596, #0d94d8);
+  color: #ecf0f1; }
+  header h1 {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 250%;
+    padding: 3.5% 0 3.5% 1%; }
+
+.intro-section {
+  color: #001a28;
+  margin: 5% 10% 0 10%;
+  font-family: 'Source Sans Pro', sans-serif; }
+  .intro-section p {
+    margin-top: 3%;
+    font-size: 110%; }
+    .intro-section p a:link,
+    .intro-section p a:visited {
+      display: inline-block;
+      text-decoration: none;
+      color: #0d94d8; }
+    .intro-section p a:hover,
+    .intro-section p a:active {
+      transform-origin: 0 100%;
+      transform: scale(1.75); }
+  .intro-section p:first-child {
+    margin: 0; }
+  .intro-section p:last-child {
+    margin-top: 12.5%; }
 
 /*# sourceMappingURL=master.css.map */

@@ -1,20 +1,26 @@
 $midnightBlue:#2c3e50;
 $clouds:#ecf0f1;
+$electricBlue: #0d94d8;
+$anotherElectricBlue: #036596;
+$textColour: #001a28;
 
 *{
   margin: 0;
   padding: 0;
 }
 
-@import "grid";
-
 body{
   font-size: 20px;
   background-color: $clouds;
 }
 
+@import "grid";
+@import "navigation";
+
+
+
 header{
-  background-color: $midnightBlue;
+  background-image: linear-gradient(to right, $anotherElectricBlue, $electricBlue);
   color: $clouds;
 
     h1{
@@ -26,30 +32,29 @@ header{
     }
 }
 
-.sticky-nav{
-  background-color: $midnightBlue;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-
-    ul{
-
-        li{
-          float: left;
-          list-style: none;
+.intro-section{
+  color: $textColour;
+  margin: 5% 10% 0 10%;
+  font-family: 'Source Sans Pro', sans-serif;
+    p{
+      margin-top: 3%;
+      font-size: 110%;
+        a:link,
+        a:visited{
+          display: inline-block;
+          text-decoration: none;
+          color: $electricBlue;
+        }
+        a:hover,
+        a:active{
+          transform-origin: 0 100%;
+          transform: scale(1.75);
         }
     }
-}
-
-.nav-link:link,
-.nav-link:visited{
-  color: $clouds;
-  text-decoration: none;
-  padding: 10px 20px;
-  display: block;
-}
-
-.nav-link:hover,
-.nav-link:active{
-  color: $midnightBlue;
-  background-color: $clouds;
+    p:first-child{
+      margin: 0;
+    }
+    p:last-child{
+      margin-top: 12.5%;
+    }
 }
