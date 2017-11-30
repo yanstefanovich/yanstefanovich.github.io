@@ -155,7 +155,11 @@ header {
   margin-right: 10%;
   position: relative; }
 
-.sm-nav-btn {
+span.sm-nav-btn {
+  margin-top: 2%;
+  padding-bottom: 1.5%;
+  display: inline-block;
+  color: #ecf0f1;
   display: none; }
 
 .nav-buttons {
@@ -216,18 +220,14 @@ header nav .main-nav a.dropDownBtn {
   header nav .main-nav a:visited {
     font-size: 125%; } }
 @media only screen and (max-width: 865px) {
-  .sm-nav-btn {
-    display: block;
-    margin-top: 2%;
-    padding-bottom: 1.5%;
-    display: inline-block;
-    color: #ecf0f1; }
+  span.sm-nav-btn {
+    display: block; }
 
   .nav-buttons {
     display: none;
     position: absolute;
     right: -10%;
-    top: 70%; }
+    top: 60%; }
     .nav-buttons li {
       background-color: white;
       float: none;
