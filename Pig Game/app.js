@@ -45,7 +45,7 @@ console.log(y);
 //context when it is being handled
 
 //Event listeners are function that performs an action based
-//on a certain event. It waits for an event to hapen and acts.
+//on a certain event. It waits for an event to happen and acts.
 
 //addEventListener takes 2 arguments: the event, the function to be executed
 //the function in the event listener is reffered to as a callback function
@@ -69,13 +69,13 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 GAME RULES:
 
 - The game has 2 players, playing in rounds
-- In each turn, a player rolls a dice as many times as he whishes. Each result
-get added to his ROUND score
-- BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's
+- In each turn, a player rolls a dice as many times as they whish. Each result
+get added to their ROUND score
+- BUT, if the player rolls a 1, all their ROUND score gets lost. After that, it's
 the next player's turn
-- The player can choose to 'Hold', which means that his ROUND score gets added
-to his GLBAL score. After that, it's the next player's turn
-- The first player to reach 100 points on GLOBAL score wins the game
+- The player can choose to 'Hold', which means that their ROUND score gets added
+to their TOTAL score. After that, it's the next player's turn
+- The first player to reach 100 points in their TOTAL score wins the game
 
 3 Challenges
 Modify the game for the following rules
@@ -128,7 +128,7 @@ function reset(){
     document.getElementById('score-0').textContent = '0';
     document.getElementById('score-1').textContent = '0';
 
-    //Reset the display for each player's the round score to zero
+    //Reset the display for each player's round score to zero
     document.getElementById('current-0').textContent = '0';
     document.getElementById('current-1').textContent = '0';
 
@@ -190,7 +190,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     //display the dice
     diceDOM_1.style.display = 'block';
     diceDOM_2.style.display = 'block';
-    //display the appropreaite number rolled
+    //display the appropreate number rolled
     diceDOM_1.src = 'dice-' + roll_1 + '.png';
     diceDOM_2.src = 'dice-' + roll_2 + '.png';
 
