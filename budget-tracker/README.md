@@ -1,4 +1,4 @@
-# [Budget Tracker App] (https://yanstefanovich.github.io/budget-tracker/index.html)
+# [Budget Tracker App](https://yanstefanovich.github.io/budget-tracker/index.html)
 
 ## Purpose
 This JavaScript application was created to master JavaScript, specifically writing a modular application. This application was designed to work through three data encapsulated modules.

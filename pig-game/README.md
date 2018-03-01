@@ -1,4 +1,4 @@
-# [Pig Game] (https://yanstefanovich.github.io/pig-game/index.html)
+# [Pig Game](https://yanstefanovich.github.io/pig-game/index.html)
 
 ## Purpose:
 A simple dice rolling game written in JavaScript. This project has been created to help me master JavaScript and practice working with the DOM.
