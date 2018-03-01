@@ -1,4 +1,4 @@
-# [Yan Stefanovich Website](https://yanstefanovich.github.io/)
+# [Yan Stefanovich (Website Link)](https://yanstefanovich.github.io/)
 
 ## Purpose:
 A simple webpage with links to my other works. This webpage serves more as a place holder to showcase what I am working/worked on and to provide links to my other media until I create a formal website.
