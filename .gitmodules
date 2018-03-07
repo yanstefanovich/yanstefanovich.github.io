@@ -1,9 +1,3 @@
-[submodule "Website Project"]
-	path = Website Project
-	url = https://github.com/yanstefanovich/Website-Project.git
-[submodule "travel-site-project"]
-	path = travel-site-project
-	url = https://github.com/yanstefanovich/travel-site-project.git
 [submodule "food-service-website"]
 	path = food-service-website
 	url = https://github.com/yanstefanovich/food-service-website.git
