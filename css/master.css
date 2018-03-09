@@ -134,9 +134,12 @@ header {
 
 .intro-section {
   color: #001a28;
-  margin: 5% 10% 0 10%;
+  max-width: 1137px;
+  padding: 0 18px;
+  margin: 3% auto 0 auto;
   font-family: 'Source Sans Pro', sans-serif; }
   .intro-section p {
+    line-height: 1.5;
     margin-top: 3%;
     font-size: 110%; }
     .intro-section p a:link,
@@ -148,10 +151,6 @@ header {
     .intro-section p a:active {
       transform-origin: 0 100%;
       transform: scale(1.75); }
-  .intro-section p:first-child {
-    margin: 0; }
-  .intro-section p:last-child {
-    margin-top: 12.5%; }
 
 .no-display {
   display: none; }

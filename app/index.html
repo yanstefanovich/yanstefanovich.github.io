@@ -3,12 +3,13 @@
   <head>
     <!-- Meta Tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="widht=device-width, initial-scale=1">
-    <meta name="keywords" content="Web Developer, Yan Stefanovich, Web Developing, Website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Web Developer, Yan Stefanovich, web developing, website">
     <meta name="description" content="Just a guy with a passion for web developing. Come check out who I am and what I do!">
     <!-- End -->
 
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./master/styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
 
     <title>Yan Stefanovich</title>
   </head>
@@ -27,20 +28,77 @@
       </nav>
     </header>
 
-    <div class="">
-
+    <div class="hero-cycle">
+      <!-- Beautiful Pages Block -->
+      <div class="hero-cycle__block hero-cycle__block--display">
+        <picture>
+          <source srcset="./assets/images/beauty/beauty-1920w.jpg 1920w, ./assets/images/beauty/beauty-3506w.jpg 3506w"
+          media="(min-width: 1380)">
+          <source srcset="./assets/images/beauty/beauty-1380w.jpg 1380w,
+          ./assets/images/beauty/beauty-2760w.jpg 2760w"
+          media="(min-width: 874px)">
+          <source srcset="./assets/images/beauty/beauty-874w.jpg 874w,
+          ./assets/images/beauty/beauty-1748w.jpg 1748w"
+          media="(min-width: 640px)">
+          <img srcset="./assets/images/beauty/beauty-640w.jpg 640w, ./assets/images/beauty/beauty-1280w.jpg 1280w"
+          alt="Beautiful Background."
+          class="hero-cycle__image">
+        </picture>
+        <div class="hero-cycle__headline-container">
+          <h1 class="hero-cycle__headline">Building Beautiful and Responsive Websites</h1>
+        </div>
+      </div>
+      <!-- Learning Block -->
+      <div class="hero-cycle__block">
+        <picture>
+          <source srcset="./assets/images/learn/learn-1920w.jpg 1920w, ./assets/images/learn/learn-3840w.jpg 3804w"
+          media="(min-width: 1380)">
+          <source srcset="./assets/images/learn/learn-1380w.jpg 1380w,
+          ./assets/images/learn/learn-2760w.jpg 2760w"
+          media="(min-width: 874px)">
+          <source srcset="./assets/images/learn/learn-874w.jpg 874w,
+          ./assets/images/learn/learn-1748w.jpg 1748w"
+          media="(min-width: 640px)">
+          <img srcset="./assets/images/learn/learn-640w.jpg 640w, ./assets/images/learn/learn-1280w.jpg 1280w"
+          alt="Office Background."
+          class="hero-cycle__image">
+        </picture>
+        <div class="hero-cycle__headline-container">
+          <h1 class="hero-cycle__headline">Exploring New and Existing Technologies</h1>
+        </div>
+      </div>
+      <!-- Connecting Block -->
+      <div class="hero-cycle__block">
+        <picture>
+          <source srcset="./assets/images/connect/connect-1920w.jpg 1920w, ./assets/images/connect/connect-3804w.jpg 3804w"
+          media="(min-width: 1380)">
+          <source srcset="./assets/images/connect/connect-1380w.jpg 1380w,
+          ./assets/images/connect/connect-2760w.jpg 2760w"
+          media="(min-width: 874px)">
+          <source srcset="./assets/images/connect/connect-874w.jpg 874w,
+          ./assets/images/connect/connect-1748w.jpg 1748w"
+          media="(min-width: 640px)">
+          <img srcset="./assets/images/connect/connect-640w.jpg 640w, ./assets/images/connect/connect-1280w.jpg 1280w"
+          alt="People Background."
+          class="hero-cycle__image">
+        </picture>
+        <div class="hero-cycle__headline-container">
+          <h1 class="hero-cycle__headline">Connecting With Others</h1>
+        </div>
+      </div>
     </div>
 
     <section>
       <div class="">
-        <img src="./assets/images/IMG_0210.jpg" alt="Yan Stefanovich">
+        <img sizes="175px" srcset="./assets/images/yan/yan-175w.jpg 175w, ./assets/images/yan/yan-450w.jpg 450w" alt="Yan Stefanovich">
       </div>
       <div class="">
-        <p>Talk about my self in this section. What I Iike, what I don't like. What I can do and things that I am not so good at.</p>
+        <p>Talk about my self in this section. What I Iike, what I don't like. What I can do and things that I am not so good at.<br>My name is Yan and I am a Web Developer! The majority of my development is done in JavaScript. I can build with HTML and style with CSS. At this time, I am exploring/learning Node.js. In the near future I wish to finish learning Angular. I have not worked with PHP, but I am quite familiar with it. Although the only experience I can currently find is as a freelance developer, I am working towards joining a company to learn more about web developing technologies and to progress my career.</p>
       </div>
     </section>
     <footer>
-      <p>Copyright &copy; Yan Stefanovich 2018 All Rights Reservedgit</p>
+      <p>Copyright &copy; Yan Stefanovich 2018 All Rights Reserved</p>
     </footer>
+    <script src="./assets/scripts/app.js" type="text/javascript"></script>
   </body>
 </html>

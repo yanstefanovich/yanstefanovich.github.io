@@ -1,0 +1,44 @@
+.hero-cycle{
+  position: relative;
+  height: 100vh;
+
+  &__block{
+    position: absolute;
+    height: 100vh;
+    overflow: hidden;
+    opacity: 0;
+    z-index: 1;
+    display: hidden;
+  }
+
+  &__block--display{
+    display: block;
+    opacity: 1;
+    z-index: 5;
+    transition: all 0.2s ease-out;
+  }
+
+  &__headline{
+    position: absolute;
+    color: #FFF;
+    font-size: 4.5rem;
+    font-weight: 300;
+    text-align: center;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  &__headline-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+  }
+
+  &__image{
+    display: block;
+  }
+}

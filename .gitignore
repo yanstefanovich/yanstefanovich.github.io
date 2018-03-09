@@ -1,5 +1,19 @@
-css-zen/
-notes/
-OMNIFOOD Original Img Full/
-Test Question/
-testQuestion/
+# Original Resources Bin
+originals/
+
+# Node Modules
+node_modules/
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+node_modules/
+.tmp/
