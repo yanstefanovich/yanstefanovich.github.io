@@ -23,14 +23,14 @@
   },
   "homepage": "https://github.com/yanstefanovich/yanstefanovich.github.io#readme",
   "devDependencies": {
-    "autoprefixer": "^8.1.0",
+    "autoprefixer": "^10.4.14",
     "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
-    "gulp-postcss": "^7.0.1",
+    "gulp-postcss": "^9.0.1",
     "gulp-watch": "^5.0.0",
-    "postcss-import": "^11.1.0",
-    "postcss-mixins": "^6.2.0",
-    "precss": "^3.1.2"
+    "postcss-import": "^15.1.0",
+    "postcss-mixins": "^6.2.3",
+    "precss": "^4.0.0"
   },
   "dependencies": {
     "normalize.css": "^8.0.0"
