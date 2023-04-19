@@ -24,7 +24,7 @@
   "homepage": "https://github.com/yanstefanovich/yanstefanovich.github.io#readme",
   "devDependencies": {
     "autoprefixer": "^8.1.0",
-    "browser-sync": "^2.23.6",
+    "browser-sync": "^2.29.1",
     "gulp": "^3.9.1",
     "gulp-postcss": "^7.0.1",
     "gulp-watch": "^5.0.0",
